@@ -7,9 +7,9 @@ import re, ast
 
 _version_re = re.compile(r'__version__\s+=\s+(.*)')
 
-with open('nextpivot/__init__.py', 'rb') as f:
-    version = str(ast.literal_eval(_version_re.search(
-        f.read().decode('utf-8')).group(1)))
+#with open('nextpivot/__init__.py', 'rb') as f:
+#    version = str(ast.literal_eval(_version_re.search(
+#        f.read().decode('utf-8')).group(1)))
 	
 # get version from __version__ variable in nextpivot/__init__.py
 
